@@ -17,8 +17,8 @@ cd linux
 
 # 3. Download and apply PREEMPT_RT patch
 echo "-> Downloading and applying PREEMPT_RT patch..."
-wget https://cdn.kernel.org/pub/linux/kernel/projects/rt/6.12/patch-6.12.28-rt10.patch.gz
-gunzip patch-6.12.28-rt10.patch.gz
+wget https://cdn.kernel.org/pub/linux/kernel/projects/rt/6.15/patch-6.15-rt2.patch.gz
+gunzip patch-6.15-rt2.patch.gz
 patch -p1 < patch-6.12.28-rt10.patch
 
 # 4. Configure kernel
